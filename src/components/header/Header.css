@@ -1,0 +1,8 @@
+.mainHeader{
+    background-color: #161720;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    color: rgb(184, 124, 154);
+    align-items: center;
+}

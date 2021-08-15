@@ -1,0 +1,50 @@
+:root{
+    --color-pink: rgb(187, 86, 137);
+    --color-darkblue : rgb(22, 23, 32);
+    --color-white : #eee
+}
+.headerLink{
+    text-decoration: none;
+    padding: 6px 12px;
+    color: #eee;
+    font-weight: 700;
+    font-size: 18px;
+    display: flex;
+    padding: 10px 30px;
+    border-radius: 20px;
+}
+.headerLinks, .headerBtn{
+    margin: auto;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.headerBtn{
+    flex-grow: 1;
+    margin-right: 10%;
+}
+
+.headerLinks{
+    flex-grow: 5;
+}
+
+.headerBtn a{
+    background-color: rgb(187, 86, 137);
+    border-radius: 20px;
+    margin: 5px;
+    padding: 10px 30px;
+}
+
+.headerBtn a:hover{
+    color: var(--color-pink);
+    background-color: var(--color-white);
+}
+
+.headerLinks a:hover{
+    background-color: var(--color-pink);
+}
+
+
+.headerBtn a:last-child, .headerBtn a:last-child:hover{
+    background-color: transparent;
+}
