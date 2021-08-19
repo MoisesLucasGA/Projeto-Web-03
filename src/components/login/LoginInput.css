@@ -1,0 +1,24 @@
+.inputDiv{
+    width: 80%;
+    display: flex;
+    margin: 25px auto;
+    flex-direction: column;
+}
+
+.loginInput{
+    border: none;
+    padding: 10px 15px;
+    background: transparent;
+    text-decoration: none;
+    color: #eee;
+    margin: 10px 0px;
+    font-size: 16px;
+    width: 100%;
+    outline: none;
+    border-bottom: 1px solid #eee;
+    transition : border 0.5s ease-out;
+}
+
+.loginInput:focus{
+    border-color: #bb5689;
+}

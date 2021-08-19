@@ -1,0 +1,34 @@
+:root{
+    --pink-color: #bb5689;
+    --white-color: #eee;
+}
+
+#logo{
+    flex-grow: 2;
+}
+
+#logoTexto{
+    font-style:normal;fill: var(--white-color);font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;font-family:'Segoe Print';-inkscape-font-specification:'Segoe Print, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill-opacity:1;stroke-width:0.264582;transition: 0.3s;
+}
+
+#logoEllipse{
+    display:inline;fill: var(--pink-color);fill-opacity:1;stroke-width:1.05833;stroke-miterlimit:4;stroke-dasharray:none;transition: 0.3s;
+}
+
+#logoPlus{
+    color:#000000;display:inline;fill: var(--pink-color);stroke-width:1.05833;transition: 0.3s;
+}
+
+#logo:hover #logoTexto{
+    fill: var(--pink-color);
+    transition: 0.3s;
+}
+#logo:hover #logoPlus{
+    fill: var(--white-color);
+    transition: 0.3s;
+}
+#logo:hover #logoEllipse{
+    fill: var(--white-color);
+    transition: 0.3s;
+}
+

@@ -5,4 +5,5 @@
     flex-direction: row;
     color: rgb(184, 124, 154);
     align-items: center;
+    box-shadow: 0px 3px 15px #09090b;
 }

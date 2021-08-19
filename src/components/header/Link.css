@@ -12,11 +12,13 @@
     display: flex;
     padding: 10px 30px;
     border-radius: 20px;
+    text-align: center;
+    transition: 0.3s;
 }
 .headerLinks, .headerBtn{
     margin: auto;
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row-reverse;    
 }
 
 .headerBtn{
@@ -33,17 +35,31 @@
     border-radius: 20px;
     margin: 5px;
     padding: 10px 30px;
+    transition: 0.3s;
 }
 
 .headerBtn a:hover{
     color: var(--color-pink);
     background-color: var(--color-white);
+    transition: 0.3s;
+}
+
+.headerBtn a:active{
+    background-color: var(--color-pink);
+    color: var(--color-white);
+    transition: 0.3s;
 }
 
 .headerLinks a:hover{
     background-color: var(--color-pink);
+    transition: 0.3s;
 }
 
+.headerLinks a:active{
+    background-color: var(--color-white);
+    color: var(--color-pink);
+    transition: 0.3s;
+}
 
 .headerBtn a:last-child, .headerBtn a:last-child:hover{
     background-color: transparent;
