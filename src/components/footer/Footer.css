@@ -1,12 +1,23 @@
 .footer{
-    background-color: black;
+    background-color: #12121A;
     color: #eee;
-    height: 20vh;
     display: flex;
     flex-direction: row;
+   
+    min-height: min-content;
 }
 .social{
     display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: auto;
+}
+.creditos{
+    display: flex;
     flex-direction: column;
     align-items: flex-start;
+    width: 50%;
+}
+.creditos p span{
+    color: #bb5689;
 }

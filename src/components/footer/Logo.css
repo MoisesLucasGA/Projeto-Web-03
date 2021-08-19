@@ -1,9 +1,27 @@
-.twitter{
+.icon{
     fill-rule:evenodd;
     clip-rule:evenodd;
     stroke-linejoin:round;
     stroke-miterlimit:2;
-    fill: #eee;
+    fill: currentColor;
+    width: 50px;
+}
+
+.iconLink{
+    display: flex;
+    text-decoration: none;
+    color: #eee;
+    flex-direction: row;
+    align-items: center;
+    margin: 10px;
+    transition: color 0.3s ease-out;
+}
+.iconLink span {
+    margin-left: 10px;
+}
+
+.iconLink:hover{
+    color: #bb5689;
 }
 /* width="100%" xml:space="preserve" height="100%" 
     xmlns="http://www.w3.org/2000/svg" xmlns:serif="http://www.serif.com/" 
