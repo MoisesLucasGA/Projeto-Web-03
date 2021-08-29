@@ -12,8 +12,8 @@ const LivroItem = (props) =>
         <p>Ano de Publicação: {props.ano}</p>
         <p>Editora: {props.editora}</p>
         <div>
-            <button className='livroExcluir'>Excluir</button>
-            <button className='livroEditar'>Editar</button>    
+            <button className='livroExcluir' value={props.id}>Excluir</button>
+            <a href={'/livroCad/' + props.id} className='livroEditar' value={props.id}>Editar</a>
         </div>
         
     </div>

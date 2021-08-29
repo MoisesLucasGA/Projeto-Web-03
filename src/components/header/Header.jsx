@@ -11,17 +11,17 @@ const styleA = {
 
 const Header = () =>
     <header className='mainHeader'>
-        <a style={styleA} href="home">
+        <a style={styleA} href="/">
             <Logo />
         </a>
         <div className='headerLinks'>
-            <Link nome='Editoras' link='editora' />
-            <Link nome='Autores' link='autores' />
-            <Link nome='Livros' link='livros' />
+            <Link nome='Editoras' link='http://localhost:3000/editora' />
+            <Link nome='Autores' link='http://localhost:3000/autor' />
+            <Link nome='Livros' link='http://localhost:3000/livro' />
         </div>
         <div className='headerBtn'>
-            <Link nome='Entrar' link='#' />
-            <Link nome='Cadastre-se' link='#' />
+            <Link nome='Entrar' link='/' />
+            <Link nome='Cadastre-se' link='http://localhost:3000/usuario' />
         </div>
     </header>
 

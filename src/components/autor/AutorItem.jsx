@@ -5,8 +5,8 @@ const AutorItem = (props) =>
         <h2>{props.nome}</h2>
         <p>{props.descricao}</p>
         <div>
-            <button className='autorExcluir'>Excluir</button>
-            <button className='autorEditar'>Editar</button>
+            <button className='autorExcluir' value={props.id} >Excluir</button>
+            <a href={'/autorCad/' + props.id} className='autorEditar' value={props.id} >Editar</a>
         </div>
     </div>
 

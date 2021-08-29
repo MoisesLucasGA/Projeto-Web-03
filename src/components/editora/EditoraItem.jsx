@@ -5,8 +5,8 @@ const EditoraItem = (props) =>
         <h2>{props.nome}</h2>
         <p>{props.descricao}</p>
         <div>
-            <button className='editoraExcluir'>Excluir</button>
-            <button className='editoraEditar'>Editar</button>
+            <button className='editoraExcluir' value={props.id} >Excluir</button>
+            <a href={'/editoraCad/' + props.id} className='editoraEditar' value={props.id} >Editar</a>
         </div>
     </div>
 
